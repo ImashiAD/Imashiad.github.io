@@ -10896,6 +10896,14 @@ html {
   }
 }
 
+.email{
+    text-decoration:none;
+    color: white;
+}
+.email:hover{
+    text-decoration:none;
+    color: #C7336D;
+}
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
