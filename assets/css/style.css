@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .divider{
-    margin: 0 10%;
+    margin: 10px 10% 0;
     border: 0;
     height: 1px;
     width: 80%;
@@ -461,7 +461,7 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
@@ -498,6 +498,19 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
+}
+
+.cv-btn {
+    background: #d2108b;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.cv-btn:hover {
+    background: #a5086b !important;
+    color: #fff !important;
 }
 
 /*--------------------------------------------------------------
